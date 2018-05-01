@@ -22,5 +22,6 @@ Imports:
     purrr,
     xml2,
     xslt,
+    stringi,
     htmltools
 RoxygenNote: 6.0.1.9000

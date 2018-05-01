@@ -9,6 +9,11 @@ Perform Network Discovery and Security Auditing with ‘nmap’
 
 The following functions are implemented:
 
+  - `list_available_scripts`: List available NSE scripts
+  - `nmap_version`: Check ‘nmap’ version
+  - `nse_descr`: Retrieve descriptioin for an NSE script
+  - `nse_list`: List available NSE scripts
+  - `read_script_description`: Retrieve descriptioin for an NSE script
   - `test_ssl_strength`: Report SSL Certificate Configuration Strength
     for one or more hosts
 

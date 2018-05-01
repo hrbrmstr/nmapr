@@ -4,5 +4,6 @@
 #' @name nmapr
 #' @docType package
 #' @author Bob Rudis (bob@@rud.is)
-#' @import purrr xslt xml2 htmltools
+#' @import purrr xslt xml2 htmltools stringi
+#' @importFrom jsonlite stream_in
 NULL
