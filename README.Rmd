@@ -1,0 +1,47 @@
+---
+output: rmarkdown::github_document
+---
+
+# nmapr
+
+Perform Network Discovery and Security Auditing with 'nmap'
+
+## Description
+
+## What's Inside The Tin
+
+The following functions are implemented:
+
+- `test_ssl_strength`:	Report SSL Certificate Configuration Strength for one or more hosts
+
+## Installation
+
+```{r eval=FALSE}
+devtools::install_github("hrbrmstr/nmapr")
+```
+
+```{r message=FALSE, warning=FALSE, error=FALSE, include=FALSE}
+options(width=120)
+```
+
+## Usage
+
+```{r message=FALSE, warning=FALSE, error=FALSE}
+library(nmapr)
+
+# current verison
+packageVersion("nmapr")
+
+```
+
+### SSL Strength
+
+```{r ssl, cache=TRUE}
+test_ssl_strength("microsoft.com")
+
+test_ssl_strength(c("rud.is", "rstudio.com"))
+
+test_ssl_strength(c("twitter.com", "def-not.exists"))
+
+test_ssl_strength("bertelsen.ca")
+```
